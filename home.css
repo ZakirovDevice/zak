@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    width: 100%;
+    height: 90vh;
+    background-image: url(./product-drop.png);
+    background-size: cover;
+}
+header nav{
+    width: 100%;
+    height: 60px;
+    display: flex;  
+    justify-content: space-around;
+    z-index: 1;
+}
+header nav {
+    font-size: 32px;
+    color: black;
+}
+header nav ul{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li{
+    width: 340px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 30px;
+}
+header nav ul li a:nth-child(1){
+    width: 100px;
+    height: 70%;
+    background: #76d8b2;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 18px;
+    color: white;
+}
+header nav ul li a{
+    width: 100px;
+    height: 70%;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 18px;
+    color: black;
+}
+header nav ul li a:hover{
+    background-color: #76d8b2;
+    color: white;
+}
+header nav ul .losign{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header nav ul .losign button{
+    width: 50%;
+    height: 70%;
+    border-radius: 25px;
+    background: #76d8b2;
+    color: white;
+    border: none;
+}
+header nav ul .losign button:hover{
+    background-color: white;
+    color: black;
+}
+header .text{
+    margin-left: 80px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+header .text h1{
+    padding: 30px;
+    height: 200px;
+    background-color: white;
+    font-size: 46px;
+    border-radius: 50px;
+    display: grid;
+    place-content: center;
+}
+header .body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .body .image{
+    width: 40%;
+}
+header .body .image img{
+    width: 100%;
+    border-radius: 50%;
+}
+section{
+    width: 100%;
+    height: 135vh;
+    display: flex;
+    flex-direction: column;
+}
+section .head-text{
+    width: 100%;
+    height: 100px;
+    display: grid;
+    place-content: center;
+}
+section .head-text h1{
+    font-size: 56px;
+}
+section .products{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+section  .top{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+section .top a{
+    width: 275px;
+    height: 100%;
+    background-color: whitesmoke;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8%;
+    border: 2px solid white;
+    overflow: hidden;
+} 
+section .top a:hover{
+    background: #76d8b2;
+}
+section .top a img{
+    width: 90%;
+    height: 65%;   
+}
+section .top a h3{
+    width: 90%;
+    font-size: 20px;
+    color: black;
+    margin:0 0 10px 0 ;
+}
+section .top a p{
+    width: 90%;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+section .top a button{
+    margin:10px 0 0 0;
+    width: 130px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 25px;
+    border: none;
+    color: black;
+    background-color: #76d8b2;
+}
+
+
+footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: #76d8b2;
+}
+footer .contact{
+    width: 100%;
+    height: 50px;
+    display: grid;
+    place-content: center;
+}
+footer .bottom{
+    display: flex;
+    justify-content: space-around;
+}
+footer .bottom a svg {
+    height: 50px;
+}
